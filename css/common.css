@@ -1,0 +1,56 @@
+body,ul,p,tr,td,a,span{
+	margin:0;padding:0;
+}
+html,body{
+	margin:0;padding:0;
+	height:100%;width:100%;
+}
+.page{
+	height:100%;width:100%;
+}
+
+.manStyle{
+	display: inline-block;
+	width:30px;height:80px;
+	border:1px solid #ddd;
+	position:absolute;
+	top:50%;
+	z-index:999;
+}
+.btn-box-handle{
+	width:120px;
+	height:120px;
+	position: absolute;
+	right:10px;
+	top:50%;
+	opacity: 0.4;
+	z-index: 9999
+}
+.btn-box-handle span{
+	width:30px;height:30px;
+	position: absolute;
+	border:1px solid #ddd;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+	border-radius: 15px
+}
+.btn-box-handle .up-btn{
+	left:36%;top:10px;
+}
+.btn-box-handle .down-btn{
+	left:36%;bottom:10px;
+}
+.btn-box-handle .left-btn{
+	left:10px;top:39%;
+}
+.btn-box-handle .right-btn{
+	right:10px;top:38%;
+}
+
+
+/*动画*/
+.upActive{
+	transition:all 2s ease 1;
+	margin-top:30px;
+}
